@@ -16,7 +16,7 @@ require AutoLoader;
 
 @EXPORT_OK = qw(mgetpwnam setpwinfo rmpwnam init_db modpwinfo);
 
-$VERSION = '1.00';
+$VERSION = '1.01';
 
 my %_Create_Flags = (
 		     'linux' => 0100,
