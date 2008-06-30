@@ -7,3 +7,6 @@ Revision history for Perl extension Passwd::DB.
 
 1.02  Mon Jun 30 08:55:16 2008
 	- added prereq_pm for makemaker so cpan testers are happier
+
+1.03  Mon Jun 30 18:30:52 2008
+	- added create flag for freebsd

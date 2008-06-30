@@ -16,9 +16,10 @@ require AutoLoader;
 
 @EXPORT_OK = qw(mgetpwnam setpwinfo rmpwnam init_db modpwinfo);
 
-$VERSION = '1.02';
+$VERSION = '1.03';
 
 my %_Create_Flags = (
+		     'freebsd' => 0x200,
 		     'linux' => 0100,
 		     'solaris' => 0x100,
 		     'hpux' => => 0400, # same as 0x100
