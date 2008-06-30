@@ -4,4 +4,6 @@ use ExtUtils::MakeMaker;
 WriteMakefile(
     'NAME'	=> 'Passwd::DB',
     'VERSION_FROM' => 'DB.pm', # finds $VERSION
+	'PREREQ_PM' => {'DB_File' => 0}
+
 );
